@@ -1,6 +1,4 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get install -y sl
-echo 'export PATH=$PATH:/usr/games' >> ~/.bashrc
-echo 'export PATH=$PATH:/usr/games' >> ~/.zshrc
+sudo apt-get install slecho "export PATH=\$PATH:/usr/games" >> ~/.bashrcecho "export PATH=\$PATH:/usr/games" >> ~/.zshrc
